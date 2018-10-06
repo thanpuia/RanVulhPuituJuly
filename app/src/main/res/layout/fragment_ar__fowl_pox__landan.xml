@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ar_FowlPox_Landan">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/headingMargin"
+                android:text="@string/landan"
+                android:textSize="@dimen/headingTextSize"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dry form"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/bodyMargin"
+                android:textSize="@dimen/textSize"
+                android:text="@string/FP_Adry_1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/bodyMargin"
+                android:textSize="@dimen/textSize"
+                android:text="@string/FP_Adry_2"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/bodyMargin"
+                android:textSize="@dimen/textSize"
+                android:text="@string/FP_Adry_3"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/bodyMargin"
+                android:textSize="@dimen/textSize"
+                android:text="@string/FP_Adry_4"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Wet"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/bodyMargin"
+                android:textSize="@dimen/textSize"
+                android:text="@string/FP_Awet_1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/bodyMargin"
+                android:textSize="@dimen/textSize"
+                android:text="@string/FP_Awet_2"/>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/headingMargin"
+                android:text="@string/darhDan"
+                android:textSize="@dimen/headingTextSize"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/bodyMargin"
+                android:textSize="@dimen/textSize"
+                android:text="@string/FP_B_1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/bodyMargin"
+                android:textSize="@dimen/textSize"
+                android:text="@string/FP_B_2"/>
+
+
+
+            <ImageView
+                android:id="@+id/fowlPox1"
+                android:onClick="fowlPox1Click"
+                android:layout_margin="@dimen/bodyMargin"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/zoomImageView"
+                android:src="@drawable/fowl_pox1_big"/>
+
+            <ImageView
+                android:id="@+id/fowlPox2"
+                android:onClick="fowlPox2Click"
+                android:layout_margin="@dimen/bodyMargin"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/zoomImageView"
+                android:src="@drawable/fowl_pox2_big"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/spaceHelper"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:text="...."/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

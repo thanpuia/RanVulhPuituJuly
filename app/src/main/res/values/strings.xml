@@ -1,0 +1,596 @@
+<resources>
+    <string name="app_name">Ran Vulh Puitu</string>
+
+    <string name="mareks_disease">Marek\'s Disease</string>
+    <string name="ibd">Infectious Bursal Disease (IBD)</string>
+    <string name="egg_drop_syndrome">Egg Drop Syndrome</string>
+    <string name="fowl_cholera">Fowl Cholera</string>
+    <string name="fowl_pox">Fowl Pox</string>
+    <string name="infectious_bronchitis">Infectious Bronchitis</string>
+    <string name="avian_influenza">Avian Influenza</string>
+    <string name="infectious_coryza">Infectious Coryza</string>
+    <string name="infectious_laryngotracheitis">Infectious Laryngotracheitis</string>
+    <string name="pullorum">Pullorum</string>
+    <string name="botulism">Botulism</string>
+    <string name="staphylococcus">Staphylococcus</string>
+    <string name="newcastle_disease">Newcastle Disease</string>
+    <string name="a"></string>
+    <string name="b"></string>
+    <string name="title_activity_ar__marek_disease">Ar_MarekDisease</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_ar__infectious_bursal_diseases">Ar_InfectiousBursalDiseases
+    </string>
+    <string name="infectious_bursal_diseases">Infectious Bursal Diseases</string>
+    <string name="title_activity_ar__egg_drop_syndrome">Ar_EggDropSyndrome</string>
+    <string name="title_activity_ar__fowl_cholera">Ar_FowlCholera</string>
+    <string name="title_activity_ar__fowl_pox">Ar_FowlPox</string>
+    <string name="title_activity_ar__newcastle_disease">Ar_NewcastleDisease</string>
+    <string name="title_activity_ar__infectious_bronchitis">Ar_InfectiousBronchitis</string>
+    <string name="title_activity_ar__avian_influenza">Ar_AvianInfluenza</string>
+    <string name="title_activity_ar__infectious_coryza">Ar_InfectiousCoryza</string>
+    <string name="title_activity_ar__infectious_laryngotracheitis">Ar_InfectiousLaryngotracheitis
+    </string>
+    <string name="title_activity_ar__pullorum">Ar_Pullorum</string>
+    <string name="title_activity_ar__botulism">Ar_Botulism</string>
+    <string name="title_activity_ar__staphylococcus">Ar_Staphylococcus</string>
+
+    <string name="landan">Landan</string>
+    <string name="enkawldan">Enkawl dan</string>
+
+    <string name="lanChhuak">A lan chhuah dan</string>
+    <string name="darhDan">A darh dan</string>
+    <string name="enkawlDan">Enkawl dan</string>
+    <string name="venDan">A ven dan</string>
+
+    <string name="marek_A_1">  ● Ar Cancer chi khat a ni</string>
+    <string name="marek_A_2">  ● Ke zeng</string>
+    <string name="marek_A_3">  ● Mit del</string>
+    <string name="marek_A_4">  ● Kaw chhungah bawl leh bawk a siam</string>
+    <string name="marek_A_5">  ● An dawl dang a, an kal tha thei lo, a thawk a rang bawk</string>
+    <string name="marek_A_6">  ● An thau thei lo a, an chhuang a phuhlip a, an ek a hring thin bawk</string>
+    1
+
+    <string name="marek_B_1">  ● Boruak che vel atangin</string>
+    <string name="marek_B_2">  ● Ar damlo chil, ek,thisen  leh hmul atangin</string>
+
+    <string name="marek_C_1">  ● A natna an kai tawh chuan. Enkawl dan mumal tak a awm lo</string>
+
+    <string name="marek_D_1">  ● Vaccine pek</string>
+    <string name="marek_D_2">  ● Vaciine hian cancer leh bawk insiam tur a veng</string>
+    <string name="marek_D_3">  ● Ar in leh a vel damdawi (disinfectant) hmanga tih fai thin tur</string>
+
+
+    <string name="IBD_A_1">  ● Kar 3 a upa ar ah chuan chaw leh tui lak a tlem thut</string>
+    <string name="IBD_A_2">  ● Khaw tha lo/ek tui/mawng berh</string>
+    <string name="IBD_A_3">  ● A hmul a pawr fep bawk</string>
+    <string name="IBD_A_4">  ● An ngui in an tho harh peih lo</string>
+
+    <string name="IBD_B_1">  ● Bungrua hrang hrang natna hrik kai atangin</string>
+    <string name="IBD_B_2">  ● Bungrua hrang hrang natna hrik kai atangin</string>
+    <string name="IBD_B_3">  ● Ar thi atangin</string>
+    <string name="IBD_B_4">  ● Ar damloh vanga thi chu halral thin tur a ni</string>
+
+    <string name="IBD_C_1">  ● A natna an kai tawh chuan. Enkawl dan mumal tak a awm lo</string>
+    <string name="IBD_C_2">  ● Vitamin-electrolyte pek thin tur</string>
+
+    <string name="IBD_D_1">  ● Vaccine pek</string>
+    <string name="IBD_D_2">  ● Ar in leh a vel damdawi (disinfectant) hmanga tih fai thin tur</string>
+
+
+    <string name="egg_A_1">  ● Layer leh ar tui chi dangah a lang chhuak thin</string>
+    <string name="egg_A_2">  ● Arpui an tui tlem</string>
+    <string name="egg_A_3">  ● Artui kawr a pan a, a keh hma</string>
+    <string name="egg_A_4">  ● Khawthalo leh ngui</string>
+
+    <string name="egg_B_1">  ● Ar natna hrik kai atangin </string>
+    <string name="egg_B_2">  ● Arpui natna hrik kai atangin ar note ah</string>
+    <string name="egg_B_3">  ● Ar note keu thar ek atangin</string>
+
+    <string name="egg_C_1">  ● Vitamin leh calcium te pek tur</string>
+
+    <string name="egg_D_1">  ● Ar in leh a vel fai taka vawn tur</string>
+    <string name="egg_D_2">  ● Ar in leh a vel damdawi (disinfectant) hmanga tih fai thin tur</string>
+
+    <string name="FC_A_1">  ● Ar kar 6 a upa ah a langchhuak</string>
+    <string name="FC_A_2">  ● An thi thut</string>
+    <string name="FC_A_3">  ● Khawsik. Chaw ei tlem, an ka atangin thil hnang a chhuak thin</string>
+    <string name="FC_A_4">  ● Khawthalo, hmul pawr, thawk a rang thin bawk</string>
+    <string name="FC_A_5">  ● Awmna leh thaw ri berh berh</string>
+    <string name="FC_A_6">  ● Lu, hmai leh chhuang a pan</string>
+    <string name="FC_A_7">  ● An ke a vung a, ruh chuktuah a vung</string>
+    <string name="FC_A_8">  ● An mit leh a hnar atangin tui hnang a chhuak thin</string>
+
+    <string name="FC_B_1">  ● Ar leh sava dang</string>
+    <string name="FC_B_2">  ● Ar damlo ek leh chil</string>
+    <string name="FC_B_3">  ● Sazu leh ransa dang atangin</string>
+
+    <string name="FC_C_1">  ● Antibiotic leh supha lam damdoi a hman theih</string>
+    <string name="FC_C_2">  ● Vitamin pek</string>
+
+    <string name="FC_D_1">  ● Vaccine pek</string>
+    <string name="FC_D_2">  ● Sazu leh ransa dang laka in ven</string>
+    <string name="FC_D_3">  ● Ar in leh a vel damdawi (disinfectant) hmanga tih fai thin tur</string>
+
+
+    <string name="FP_Adry_1">  ● Ar hmai, ke leh mawng hmul to lohna laiah a bawl chhuak</string>
+    <string name="FP_Adry_2">  ● Ar hmai huh hi kar 2 hnuah a reh mai thin</string>
+    <string name="FP_Adry_3">  ● Thang tha lo leh chaw ei tlem, ngui</string>
+    <string name="FP_Adry_4">  ● Ar tui lai an tui tlem</string>
+
+    <string name="FP_Awet_1">  ● Ka chhung ah a bawl chhuak</string>
+    <string name="FP_Awet_2">  ● Thawk harsa</string>
+
+    <string name="FP_B_1">  ● Ar damlo atangin</string>
+    <string name="FP_B_2">  ● Thosi</string>
+
+    <string name="FP_C_1">  ● Treatment pek tur bik a awm lo.</string>
+    <string name="FP_C_2">  ● Vitamin pek that</string>
+
+    <string name="FP_D_1">  ● Thosi awmna tur tih bo</string>
+    <string name="FP_D_2">  ● Vaccine pek</string>
+    <string name="FP_D_3">  ● Ar in leh a vel damdawi (disinfectant) hmanga tih fai thin tur</string>
+
+
+    <string name="newcastle_A_1">  ● An damlo thut thin</string>
+    <string name="newcastle_A_2">  ● Ar note ah an hram tha thei lo (aw chhang)</string>
+    <string name="newcastle_A_3">  ● Hner berh</string>
+    <string name="newcastle_A_4">  ● Thawk harsa</string>
+    <string name="newcastle_A_5">  ● Hmai vung</string>
+    <string name="newcastle_A_6">  ● Zeng, khur der der, nghawng inherh</string>
+    <string name="newcastle_A_7">  ● Chaw leh tui lak a tlem</string>
+
+    <string name="newcastle_B_1">  ● Boruak che vel atangin</string>
+    <string name="newcastle_B_2">  ● Bungraw hrang hrang atangin</string>
+    <string name="newcastle_B_3">  ● Ar thi atangin</string>
+    <string name="newcastle_B_4">  ● Ar damlo, ek leh chil</string>
+
+
+    <string name="newcastle_C_1">  ● Enkawl dan bik a awm lo</string>
+    <string name="newcastle_C_2">  ● Ar note bikah dah lum that</string>
+
+    <string name="newcastle_D_1">  ● Vaccine pek</string>
+    <string name="newcastle_D_2">  ● Ar in tihfai that, Ar in leh a vel damdawi (disinfectant) hmanga tih fai thin tur</string>
+
+
+    <string name="IB_A_1">  ● Chaw leh tui an thlah thin</string>
+    <string name="IB_A_2">  ● Mit leh hnar a berh</string>
+    <string name="IB_A_3">  ● Thawk harsa, an thaw ri hrawk hrawk thin</string>
+    <string name="IB_A_4">  ● Ar an tui tlem</string>
+    <string name="IB_A_5">  ● Artui kawr a thap </string>
+
+    <string name="IB_B_1">  ● Natna hlauhawm tak a ni</string>
+    <string name="IB_B_2">  ● Ar damlo </string>
+    <string name="IB_B_3">  ● Ar thi, boruak che vel, ar in fai lo leh sazu atangin</string>
+
+    <string name="IB_C_1">  ● Enkawl dan bik a awm lo</string>
+    <string name="IB_C_2">  ● Ar note bikah dah lum that</string>
+    <string name="IB_C_3">  ● Vitamin pek</string>
+
+    <string name="IB_D_1">  ● Vaccine pek</string>
+    <string name="IB_D_2">  ● Ar in leh a vel tihfai that</string>
+    <string name="IB_D_3">  ● Ar in leh a vel damdawi (disinfectant) hmanga tih fai thin tur</string>
+
+    <string name="avian_Amild_1">  ● Ngui /chau ngawih ngawih</string>
+    <string name="avian_Amild_2">  ● Chaw ei duh lo</string>
+    <string name="avian_Amild_3">  ● Thawk harsa</string>
+    <string name="avian_Amild_4">  ● Khawthalo</string>
+    <string name="avian_Ahigh_5">  ● Hmai vung</string>
+    <string name="avian_Ahigh_6">  ● Chuang, hmai, lu leh le te a duk thin</string>
+    <string name="avian_Ahigh_7">  ● Mit leh hnar berh</string>
+    <string name="avian_Ahigh_8">  ● Thawk harsa leh kawthalo</string>
+    <string name="avian_Ahigh_9">  ● Chhan leh vang awm lovin an thi puk thin</string>
+    <string name="avian_Ahigh_10">  ● An tui tlem a. Artui kawr dup a tam bik</string>
+
+    <string name="avian_B_1">  ● Ar leh sava, he natna veite</string>
+    <string name="avian_B_2">  ● Arva damlo ek leh chil</string>
+    <string name="avian_B_3">  ● Arva thi</string>
+    <string name="avian_B_4">  ● Bungrua hrang hrang natna hrik kai- arbawm, hmanrua te, ar enkawltu thawmhnaw, ar chawpek na atangin</string>
+    <string name="avian_B_5">  ● Varak te pawh hian a nantna lang chhuak si lovin natna hrik an phu darh thei</string>
+
+    <string name="avian_C_1">  ● A natna an kai tawh chuan. Enkawl dan mumal tak a awm lo</string>
+    <string name="avian_C_2">  ● Vitamin-electrolyte pek thin tur</string>
+
+    <string name="avian_D_1">  ● Sava dang luh theih lohva ar in sak tur</string>
+    <string name="avian_D_2">  ● Natna hrik pu darh theitu bungrua leh ran dang mihring chenin khuahkhirh tur</string>
+    <string name="avian_D_3">  ● Ar in leh a vel damdawi (disinfectant) hmanga tih fai thin tur</string>
+    <string name="avian_D_4">  ● Ar sawnbawltuten kut fai taksa sil tur</string>
+
+
+    <string name="IC_A_1">  ● Ar sualhuai ah a tam bik</string>
+    <string name="IC_A_2">  ● Hmai vung</string>
+    <string name="IC_A_3">  ● Thil tui rimchhia mit leh hnar atangin a chhuak</string>
+    <string name="IC_A_4">  ● Thawk rang leh awm hnawk</string>
+    <string name="IC_A_5">  ● Mit inchar</string>
+    <string name="IC_A_6">  ● Khawthalo leh taksa cher</string>
+
+    <string name="IC_B_1">  ● Ar dang atangin</string>
+    <string name="IC_B_2">  ● Ar damlo chil, ek,thisen </string>
+    <string name="IC_B_3">  ● Ar chaw thianghlimlo</string>
+
+    <string name="IC_C_1">  ● Antibiotic hman tur</string>
+    <string name="IC_C_2">  ● Sulfadimethoxine drugs.</string>
+    <string name="IC_C_3">  ● sulfamethazine, erythromycin, or tetracycline te pawh a hman theih</string>
+
+    <string name="IC_D_1">  ● Vaccine pek tur. Kar 5 an tlin a vawi khat, vawi khat chiu hnu kar 4 hnuah vawi khat leh, thla 10 an tlin ah vawi khat a bak chu kum khatah vawi hnih vaccine pek thin tur</string>
+    <string name="IC_D_2">  ● Vaccine hi a vun hnuaiah (Subcutaneous) in pek tur a ni</string>
+    <string name="IC_D_3">  ● Ar in leh a vel damdawi (disinfectant) hmanga tih fai thin tur</string>
+
+
+    <string name="IL_A_1">  ● Ar pui leh ar sual huai ah a tam bik</string>
+    <string name="IL_A_2">  ● An mit a tui</string>
+    <string name="IL_A_3">  ● Thawk harsa, hritlang awmna angin an awm</string>
+    <string name="IL_A_4">  ● Tawk harsa, thawk tumin an lu leh nghawng an an tun a, an dak awrh awrh thin. Lu thing nasa</string>
+    <string name="IL_A_5">  ● Hnap an ngah a, hei hian an tawk a ti harsa a, an awm a hnawk thin</string>
+    <string name="IL_A_6">  ● Bungrua hrang hrang natna hrik kai- arbawm, hmanrua te, ar enkawltu thawmhnaw, ar chawpek na atangin</string>
+
+    <string name="IL_B_1">  ● Ar damlo hnap , chil leh ek atangin</string>
+    <string name="IL_B_2">  ● Bungrua hrang hrang natna hrik kai- arbawm, hmanrua te, ar enkawltu thawmhnaw, ar chawpek na atangin</string>
+
+    <string name="IL_C_1">  ● Antibiotic a hman theih</string>
+    <string name="IL_C_2">  ● Ar thi reng reng phum emaw hal ral tur</string>
+    <string name="IL_C_3">  ● Vitamin pek that</string>
+
+    <string name="IL_D_1">  ● Vaccine pek</string>
+    <string name="IL_D_2">  ● Ar in leh a vel damdawi (disinfectant) hmanga tih fai thin tur</string>
+
+    <string name="pullorum_A_1">  ● Ar note ah a tam bik</string>
+    <string name="pullorum_A_2">  ● Ar note chu an zawi ngawih ngawih a, an in nghen khawm thin</string>
+    <string name="pullorum_A_3">  ● Khawthalo, ek var , a changin a hring</string>
+    <string name="pullorum_A_4">  ● An mawng a berh reng </string>
+    <string name="pullorum_A_5">  ● Thawk harsa</string>
+    <string name="pullorum_A_6">  ● Chaw ei tha duh lo</string>
+    <string name="pullorum_A_7">  ● Thang tha lo</string>
+
+    <string name="pullorum_B_1">  ● Arpui atangin ar note in an kai</string>
+    <string name="pullorum_B_2">  ● Ar in fai lo, leh ar awp keina fai lo leh thianghlim lo atangin</string>
+    <string name="pullorum_B_3">  ● Bungraw hrang hrang natna hrik kai atangin</string>
+
+    <string name="pullorum_C_1">  ● Ar vulh lai zawng zawng enkawl nghal tur a ni</string>
+    <string name="pullorum_C_2">  ● sulfonamides, antibiotics, leh antibacterials te hman tur a ni </string>
+    <string name="pullorum_C_3">  ● Vitamin leh electrolyte (ORS)pek thin tur</string>
+
+    <string name="pullorum_D_1">  ● Ar in leh a vel tihfai that</string>
+    <string name="pullorum_D_2">  ● Ar note awp keuna leh bungraw dang a fai tur a ni</string>
+    <string name="pullorum_D_3">  ● Ar note hriat chian leh certified chiah lak tur</string>
+    <string name="pullorum_D_4">  ● Chaw tha pek</string>
+
+    <string name="botulism_A_1">  ● Clostridium botulinum tur (toxin) avangin natna a lang</string>
+    <string name="botulism_A_2">  ● Tha hrui a khawih avangin Ar thla leh ke te  a Zeng thin</string>
+    <string name="botulism_A_3">  ● An hmul a phawkthlak zung zung theih</string>
+    <string name="botulism_A_4">  ● Taksa ah tur a tam lutuk chuan darker 12-24 chhungin an thi thin</string>
+
+    <string name="botulism_B_1">  ● Ar thi leh sa thi tawih atangin</string>
+    <string name="botulism_B_2">  ● Tho leh thil lung te hian a tur (Toxins) an pai</string>
+    <string name="botulism_B_3">  ● Ar chaw thianghlim lo leh tui thianghlim lo atangin</string>
+
+    <string name="botulism_C_1">  ● Art hi leh tawih te paih vat tur</string>
+    <string name="botulism_C_2">  ● Chaw hlui leh chhia te pek loh tur</string>
+    <string name="botulism_C_3">  ● Tuisen-potassium permanganate (1:3000) an  tui in tur a tlem te pawlh a tha</string>
+
+    <string name="botulism_D_1">  ● He natna vang a thi ar chu halral vat tur a ni</string>
+    <string name="botulism_D_2">  ● Chaw thing leh hmuar te, thlai tawih te ar pek loh tur</string>
+    <string name="botulism_D_3">  ● Tho leh thosi ven tur</string>
+    <string name="botulism_D_4">  ● Chaw thianghlim leh thar tha chiah pek tur</string>
+
+    <string name="staphylococcus_Asepticemia_1">  ● Zawi leh ngui</string>
+    <string name="staphylococcus_Asepticemia_2">  ● Chaw ei tha lo</string>
+    <string name="staphylococcus_Asepticemia_3">  ● An chet zawngin na nei angin an awm</string>
+    <string name="staphylococcus_Asepticemia_4">  ● Artui chhia a tam</string>
+    <string name="staphylococcus_Asepticemia_5">  ● Ek tui, a dum deuh thin</string>
+    <string name="staphylococcus_Asepticemia_6">  ● An ruh chuktuan a vung thin</string>
+    <string name="staphylococcus_Aarthritic_7">  ● An ruh chuktuan a vung a, an kal tha thei lo</string>
+    <string name="staphylococcus_Aarthritic_8">  ● An awm bawr a durh leh pan a  awm</string>
+    <string name="staphylococcus_Aarthritic_9">  ● Ar an tho chhuak thei lo</string>
+    <string name="staphylococcus_Abumble_10">  ● Ke pem a awmin natna hrik a lut thin</string>
+    <string name="staphylococcus_Abumble_11">  ● An ke phah a vung, hnai a awm thin</string>
+    <string name="staphylococcus_Abumble_12">  ● An kal tha thei lo</string>
+
+    <string name="staphylococcus_B_1">  ● A natna tlentu hi Staphylococcus aureus a ni</string>
+    <string name="staphylococcus_B_2">  ● Pem ah natna hrik a lut thin</string>
+    <string name="staphylococcus_B_3">  ● Ar in chhuat fai lo leh tui chhe tling atangin an kai awlsam bik</string>
+
+    <string name="staphylococcus_C_1">  ● Novobiocin (350 g/ton) an chaw ah a pawlh theih a ni  5–7 pek tur</string>
+    <string name="staphylococcus_C_2">  ● Erythromycin and penicillin tui in tur emaw a chaw a pawlhin ni 3-5 te a pek theih bawk </string>
+    <string name="staphylococcus_C_3">  ● Viatmin pek</string>
+
+    <string name="staphylococcus_D_1">  ● Ar ti pem thei thil hriam a awm tur a ni lo</string>
+    <string name="staphylococcus_D_2">  ● Ar damlo chu dah hran vat tur</string>
+    <string name="staphylococcus_D_3">  ● Chaw tha leh tui thianghlim pek thin tur`</string>
+    <string name="title_activity_vawk_natna_leh_hri__vawk_pul_hri">Vawk_natnaLehHri_VawkPulHri</string>
+
+
+    <string name="natna1">Vawk Pul Hri</string>
+    <string name="natna2">PRRS</string>
+    <string name="natna3">Vawk Phar</string>
+    <string name="natna4">Sakawr Ek Hrik Natna</string>
+    <string name="natna5">Rulhut</string>
+    <string name="natna6">Vawkpui tlusawp</string>
+    <string name="title_activity_vawk_natna_leh_hri__prrs">Vawk_natnaLehHri_PRRS</string>
+    <string name="title_activity_vawk_natna_leh_hri__vawk_phar">Vawk_natnaLehHri_VawkPhar</string>
+    <string name="title_activity_vawk_natna_leh_hri__sakawr_ek_hrik_natna">
+        Vawk_natnaLehHri_SakawrEkHrikNatna
+    </string>
+    <string name="title_activity_vawk_natna_leh_hri__rulhut">Vawk_natnaLehHri_Rulhut</string>
+    <string name="title_activity_vawk_natna_leh_hri__vawkpui_tlusawp">
+        Vawk_natnaLehHri_VawkpuiTlusawp
+    </string>
+    <string name="title_activity_vawk_ran_in_tihfai_dan__soda">Vawk_ranInTihfaiDan_Soda</string>
+    <string name="title_activity_vawk_ran_in_tihfai_dan__chinai">Vawk_ranInTihfaiDan_Chinai</string>
+    <string name="title_activity_vawk_ran_in_tihfai_dan__tuisen">Vawk_ranInTihfaiDan_Tuisen</string>
+    <string name="title_activity_vawk_ran_in_tihfai_dan__phenol">Vawk_ranInTihfaiDan_Phenol</string>
+    <string name="title_activity_vawk_ran_in_tihfai_dan__sodium">Vawk_ranInTihfaiDan_Sodium</string>
+    <string name="title_activity_vawk_ran_in_tihfai_dan__bleaching">Vawk_ranInTihfaiDan_Bleaching
+    </string>
+    <string name="title_activity_vawk_hnim_hring_tur_nei_sava_mit">Vawk_hnimHringTurNei_savaMit
+    </string>
+    <string name="title_activity_vawk_hnim_hring_tur_nei__katchat">Vawk_hnimHringTurNei_Katchat
+    </string>
+    <string name="title_activity_vawk_hnim_hring_tur_nei__mutih">Vawk_hnimHringTurNei_Mutih</string>
+    <string name="title_activity_vawk_hnim_hring_tur_nei__tawtawrawt_var">
+        Vawk_hnimHringTurNei_TawtawrawtVar
+    </string>
+    <string name="title_activity_vawk_hnim_hring_tur_nei__vawk_hnim_hring_tur_nei__tawtawrawt_pawl">
+        Vawk_hnimHringTurNei_Vawk_hnimHringTurNei_TawtawrawtPawl
+    </string>
+    <string name="title_activity_vawk_hnim_hring_tur_nei__shillong">Vawk_hnimHringTurNei_Shillong
+    </string>
+    <string name="title_activity_vawk_hnim_hring_tur_nei_kanaan">Vawk_hnimHringTurNei_kanaan
+    </string>
+
+    <string name="engLaiinNgeTurPai">Eng Laiin nge Tûr pai</string>
+    <string name="engngeATurHming">Engnge a Tûr hming</string>
+    <string name="engRanInNgeATurHiHua">Eng ranin nge a Tûr hi hua</string>
+    <string name="turHnathawhLanchhuahdan">Tûr hnathawh lanchhuahdan</string>
+    <string name="turAvangaHarsatnaNeiEnkawldan">Tûr avanga harsatna nei enkawldan</string>
+
+    <string name="engtinngeALannchhuah">Engtinnge a lanchhuah?</string>
+    <string name="savaMitA">  ● A chi (seeds)</string>
+    <string name="savaMitB">  ● Abrin</string>
+    <string name="savaMitC">  ● Ran zawng zawngin an hua. Sakawrin an haw lehzual bik</string>
+    <string name="savaMitD1">  ● Chil chhuak nasa</string>
+    <string name="savaMitD2">  ● Hnap tam</string>
+    <string name="savaMitD3">  ● Luak</string>
+    <string name="savaMitD4">  ● Kawthalo nasatak thisen nena inpawlh</string>
+    <string name="savaMitD5">  ● Ka chhung ulcer</string>
+    <string name="savaMitD6">  ● Taksa khur zawih zawih leh thihna</string>
+    <string name="savaMitE1">  ● Ran taksa atanga Tur lakchhuah – Luaktir emaw kawthuahna pek</string>
+    <string name="savaMitE2">  ● Demulcent</string>
+    <string name="savaMitE3">  ● Fluid therapy</string>
+
+    <string name="katchatA">  ● A kung pumpuiin Tur a ni</string>
+    <string name="katchatB">  ● Thiaminase</string>
+    <string name="katchatC">  ● Ran zawng zawngin an hua</string>
+    <string name="katchatD1">  ● Chaw ei tui lo</string>
+    <string name="katchatD2">  ● Luak</string>
+    <string name="katchatD3">  ● Ek khal</string>
+    <string name="katchatD4">  ● Lung (Heart) a khawih chhia a, hei hian harsatna hrang hrang a thlen thin</string>
+    <string name="katchatE1">  ● Ran taksa atanga Tur lakchhuah – Luaktir emaw kawthuahna pek</string>
+    <string name="katchatE2">  ● Tur in hna a thawh rei tawh lutuk chuan enkawl dam hleihtheih a ni lo</string>
+    <string name="katchatE3">  ● Thiamine injection</string>
+    <string name="katchatE4">  ● Vitamin B-Complex injection</string>
+
+    <string name="mutihA">  ● A kung pumpuiin Tur a ni.</string>
+    <string name="mutihB">  ● Ricin</string>
+
+    <string name="mutihC">  ● Ran zawng zawngin an hua. Sakawrin an haw lehzual bik</string>
+    <string name="mutihD1">  ● Luakchhuak</string>
+    <string name="mutihD2">  ● Pumna</string>
+    <string name="mutihD3">  ● Ha thial</string>
+    <string name="mutihD4">  ● Hnungzang ti kum</string>
+    <string name="mutihD5">  ● Kawthalo, thisen tel</string>
+    <string name="mutihD6">  ● Jaundice (Vun rawng eng)</string>
+    <string name="mutihD7">  ● No chhiat</string>
+    <string name="mutihD8">  ● Taksa chau leh chezia mumal lo</string>
+    <string name="mutihE1">  ● Ran taksa atanga Tur lakchhuah – Luaktir emaw kawthuahna pek</string>
+    <string name="mutihE2">  ● Activated charcoal</string>
+    <string name="mutihE3">  ● Electrolytes i/v infusion</string>
+
+    <string name="tawtawrawtVarA">  ● A hnah (Leaf) leh a chi (Seed)</string>
+    <string name="tawtawrawtVarB">  ● Hyocyamine, Atropine &amp; Hyoscine</string>
+    <string name="tawtawrawtVarC">  ● Ran zawng zawngin a Tur hi an hua</string>
+    <string name="tawtawrawtVarD1">  ● Taksa chau/ngui leh Chaw ei tui lo</string>
+    <string name="tawtawrawtVarD2">  ● Ka chhung ro leh tuihal huam huam</string>
+    <string name="tawtawrawtVarD3">  ● Mit del emaw thil hmu fiah thei lo</string>
+    <string name="tawtawrawtVarD4">  ● Chi-ai nasa leh chezia mumal lo</string>
+    <string name="tawtawrawtVarD5">  ● Taksa vawt thlur leh taksa khur vak vak</string>
+    <string name="tawtawrawtVarD6">  ● Taksa kua hrang hrang atangin tuihnang a chhuak</string>
+    <string name="tawtawrawtVarD7">  ● Reilote (minute – darkar) chhunga thihna</string>
+    <string name="tawtawrawtVarE1">  ● Ran taksa atanga Tur lakchhuah – Luaktir emaw kawthuahna pek</string>
+    <string name="tawtawrawtVarE2">  ● Ran chu chettir reng tum tur</string>
+    <string name="tawtawrawtVarE3">  ● Artificial respiration</string>
+    <string name="tawtawrawtVarE4">  ● Taksa chezia mumal lo a nasat chuan damdawi hmangin chiu zawi tur</string>
+
+    <string name="tawtawrawtPawlA">  ● A hnah (Leaf) leh a par (Flower)</string>
+    <string name="tawtawrawtPawlB">  ● Lysergic Acid Alkaloids</string>
+    <string name="tawtawrawtPawlC">  ● Ran zawng zawngin an hua. Kel, Bawng note leh Beramin a Tur hi an haw lehzual bik</string>
+    <string name="tawtawrawtPawlD1">  ● Chil haw vak vak leh kawthalo</string>
+    <string name="tawtawrawtPawlD2">  ● Mit natna / thil hmuh harsatna</string>
+    <string name="tawtawrawtPawlD3">  ● Taksa khur leh chezia mumal lo</string>
+    <string name="tawtawrawtPawlD4">  ● Ran ke a zeng a, an tlusawp a, an thihpui mai thin</string>
+    <string name="tawtawrawtPawlE1">  ● Ran taksa atanga Tur lakchhuah – Luaktir emaw kawthuahna pek</string>
+    <string name="tawtawrawtPawlE2">  ● Activated charcoal</string>
+    <string name="tawtawrawtPawlE3">  ● Thin chakna damdawi pek chhunzawm</string>
+
+    <string name="shillongA">  ● A kung pumpuiah Tur a awm vek</string>
+    <string name="shillongB">  ● Lantadenes</string>
+    <string name="shillongC">  ● Ran zawng zawngin an hua. Bawngin a Tur hi an haw lehzual bik</string>
+    <string name="shillongD1">  ● Thin (Liver) a khawih chhia</string>
+    <string name="shillongD2">  ● Eng chhun (Direct light) reng reng an vunin a hua</string>
+    <string name="shillongD3">  ● Jaundice</string>
+    <string name="shillongD4">  ● Mit vung</string>
+    <string name="shillongD5">  ● Zunkawng thalo</string>
+    <string name="shillongD6">  ● Eng chhun avangin an hmuiah te, an beng hmawrah leh taksa hmul awmlohnaah a pan khir vak thin</string>
+    <string name="shillongE1">  ● Ran taksa atanga Tur lakchhuah – Luaktir emaw kawthuahna pek</string>
+    <string name="shillongE2">  ● He Tur ei palh ran chu daihlimah dah reng tur</string>
+    <string name="shillongE3">  ● Vun pan enkawl – pem thar damdawi, Himax etc</string>
+    <string name="shillongE4">  ● Dextrose i/v infusion</string>
+    <string name="shillongE5">  ● Thin chakna pek vat tur</string>
+    <string name="shillongE6">  ● Activated charcoal</string>
+    <string name="shillongE7">  ● A tuldan azirin antibiotics leh antihistamine pek tur</string>
+
+    <string name="kanaanA">  ● A hnah (Leaves) leh a kuang (Stem) a Tur a awm</string>
+    <string name="kanaanB">  ● Neriodorin, Neriodorein, Oleandrine, Neriene &amp; Neriantine</string>
+    <string name="kanaanC">  ● Ran zawng zawngin an hua</string>
+    <string name="kanaanD1">  ● Chaw ei duh lo leh luak chhuak</string>
+    <string name="kanaanD2">  ● Pumna leh kawthalo</string>
+    <string name="kanaanD3">  ● Lung (Heart) a khawihchhiat avangin Stroke a thlen thut thei</string>
+    <string name="kanaanD4">  ● Rang tak leh harsa taka thaw lak</string>
+    <string name="kanaanD5">  ● Taksa hmawr vawt, taksa khur vak vak leh zeng</string>
+    <string name="kanaanD6">  ● Ran chu a tlusawp a, reiloteah a thi zui mai thin</string>
+    <string name="kanaanE1">  ● Ran taksa atanga Tur lakchhuah – Luaktir emaw kawthuahna pek</string>
+    <string name="kanaanE2">  ● Demulcents</string>
+    <string name="kanaanE3">  ● Khuahkhirh theihloh khawpa taksa che vak vak a nih chuan chiu zawi tur</string>
+    <string name="kanaanE4">  ● Artificial respiration</string>
+    <string name="kanaanE5">  ● Calcium pek miah loh tur</string>
+
+
+    <string name="enginNgeThlen">Engin nge thlen?</string>
+    <string name="engtinngeADarh">Engtinnge a darh?</string>
+    <string name="entinngeALanchhuah">Engtinnge a lanchhuah?</string>
+
+    <string name="vawkNoteLehThanglaiah">Vawk note leh thanglaiah engtinnge a lanchhuah?</string>
+    <string name="vawkPuitlingahEngtinngeALanchhuah">Vawk puitlingah engtinnge a lanchhuah?</string>
+
+    <string name="engDamdawiHmangaEnkawlTurNge">Eng damdawi hmanga enkawl tur nge?</string>
+    <string name="engtiaInvenTurNge">Engtia inven tur nge?</string>
+
+    <string name="vawkPulHriA">  ● Pesti-Virus</string>
+    <string name="vawkPulHriB1">  ● Boruak che vel ah a leng/darh thei</string>
+    <string name="vawkPulHriB2">  ● Vawk damlo leh damlai dahpawlhin</string>
+    <string name="vawkPulHriB3">  ● Vawk chaw leh tui thianghlimlo atangin</string>
+    <string name="vawkPulHriC1">  ● Khawsik sang</string>
+    <string name="vawkPulHriC2">  ● Chhan awm lova chau leh ngui thut</string>
+    <string name="vawkPulHriC3">  ● Kawthalo leh luak</string>
+    <string name="vawkPulHriC4">  ● Mit na (Conjunctivitis)</string>
+    <string name="vawkPulHriC5">  ● Beng leh hnar senduk</string>
+    <string name="vawkPulHriC6">  ● Taksa chau leh thihna</string>
+    <string name="vawkPulHriD1">  ● Damdawi bik a awm lo</string>
+    <string name="vawkPulHriD2">  ● Natna hri dang ven nan Antibiotics hman theih a ni</string>
+    <string name="vawkPulHriE1">  ● A hun taka Vawk Pul Hri Vaccine pek</string>
+    <string name="vawkPulHriE2">  ● Damdawi (disinfectant) hmanga Vawk In tihfai</string>
+    <string name="vawkPulHriE3">  ● Chaw tha (Compound Pig Feed) leh Vitamin pek</string>
+    <string name="vawkPulHriE4">  ● Pawnlam mi tan Vawk In chhunga luh mai mai phal loh</string>
+    <string name="vawkPulHriE5">  ● Vawk damlo reng reng kal hnaih loh tur</string>
+
+    <string name="prrsA">  ● PRRS hi natna hrik chikhat (Arteri-Virus) in a thlen a ni</string>
+    <string name="prrsB1">  ● Vawk damlo chil, hnap, zun, ek leh chi (Semen)</string>
+    <string name="prrsB2">  ● Vawk damlo leh damlai dahpawlh</string>
+    <string name="prrsB3">  ● Boruak che vel</string>
+    <string name="prrsB4">  ● Mihring leh lirthei che vel</string>
+    <string name="prrsC1">  ● Chaw ei tui lo leh taksa chau</string>
+    <string name="prrsC2">  ● Harsa ti tak leh rang takin an thaw thin</string>
+    <string name="prrsC3">  ● An beng kawm, hnar leh hmun dang a lo senduk thin</string>
+    <string name="prrsC4">  ● An mit bul vel a vung vak thin</string>
+    <string name="prrsD1">  ● Chaw ei tui lo leh khawsik sang</string>
+    <string name="prrsD2">  ● A hun hmaa vawk note thisa hrin emaw note chhiat</string>
+    <string name="prrsD3">  ● Vawk thenkhat chu an lu a hai a, an tlu tawp thin</string>
+    <string name="prrsD4">  ● Thihna hial a thlen thin</string>
+    <string name="prrsE1">  ● Damdawi bik a awm lo</string>
+    <string name="prrsE2">  ● PRRS Vaccine hi tun dinhmunah Mizoram-ah a awm lo</string>
+    <string name="prrsE3">  ● Natna hri dang ven nan Antibiotics</string>
+    <string name="prrsF1">  ● Damdawi (disinfectant) hmanga Vawk In silfai</string>
+    <string name="prrsF2">  ● Chaw tha (Compound Pig Feed) leh Vitamin pek</string>
+    <string name="prrsF3">  ● Pawnlam mi tan Vawk In chhunga luh mai mai phal loh tur</string>
+    <string name="prrsF4">  ● Vawk damlo reng reng kal hnaih loh tur</string>
+
+    <string name="vawkPharA">  ● Tawngkam tlanglawna ‘Vawk Phar’ kan tih hi ‘Phar’ (Leprosy) tak tak a ni lova. Hrik avanga vun natna/thak lo awm mai ni in, hrik chihnih – Sarcoptes te leh Demodex te zinga engemaw zawk zawk in a thlen a ni</string>
+    <string name="vawkPharB1">  ● Vawk phar leh pharlo dahpawlhin</string>
+    <string name="vawkPharB2">  ● Vawk In thianghlim tawkloh vangin</string>
+    <string name="vawkPharB3">  ● Vawk In bul vela hnim leh thingkung tam lutuk avangin</string>
+    <string name="vawkPharC1">  ● Vun thak avanga chaw ei a tui lo</string>
+    <string name="vawkPharC2">  ● Vun thak chu bangah an nawt a, vun chu a lo sen vak thin</string>
+    <string name="vawkPharC3">  ● An taksa thenlaiah bawl sen tereuh te te a awm thin</string>
+    <string name="vawkPharC4">  ● Bengchhung thak avangin an lu an thing vak vak thin</string>
+    <string name="vawkPharD1">  ● Ivermectin (Injection/Oral)</string>
+    <string name="vawkPharD2">  ● Cypermethrin (Vawk bualna)</string>
+    <string name="vawkPharD3">  ● Vitamin supplements</string>
+    <string name="vawkPharE1">  ● Vawk chengho zingah pakhatin a kai palh a nih chuan an zavaiin damdawi pek tur</string>
+    <string name="vawkPharE2">  ● Vawk In leh  vela hnim bukte sam fai</string>
+    <string name="vawkPharE3">  ● Vawk In nitina silfai</string>
+    <string name="vawkPharE4">  ● Karkhatah vawikhat tal damdawi (disinfectant) hmangin Vawk In tleuhfai</string>
+    <string name="vawkPharE5">  ● Vawk bulah ran dang (ui, zawhte, ar etc) tlattir loh</string>
+
+
+    <string name="sakawrEkHrikA">  ● Clostridium tetani </string>
+    <string name="sakawrEkHrikB1">  ● Ran zainana hmanraw thianghlimlo hmanin</string>
+    <string name="sakawrEkHrikB2">  ● Pem leh zaina hnuhma enkawl thianghlim tawk lohvin</string>
+    <string name="sakawrEkHrikB3">  ● Ran pem emaw zaina hnuhmaa hlum (lei) bel hnanin</string>
+    <string name="sakawrEkHrikC1">  ● Khawsik sang tak</string>
+    <string name="sakawrEkHrikC2">  ● Taksa khawng</string>
+    <string name="sakawrEkHrikC3">  ● Ka (mouth) hnuailam a khawng tlat thin</string>
+    <string name="sakawrEkHrikD">  ● Tetanus tihdamna damdawi a awm lo</string>
+    <string name="sakawrEkHrikE1">  ● Tetanus a thlen loh nan fimkhur a ngai</string>
+    <string name="sakawrEkHrikE2">  ● Pem leh zaina hnuhma thianghlim taka enkawl</string>
+    <string name="sakawrEkHrikE3">  ● Pen leh zaina hnuhma thawmnan hlum (lei) hman loh tur. Antiseptic ointment (Himax, Skin Heal etc) hman zawk tur</string>
+
+
+    <string name="rulhutA">  ● Rulhut</string>
+    <string name="rulhutB1">  ● Rulhut tui (egg) chu vawk ek atangin a chhuak a, hei hian chaw leh tui a ti thianghlimlo thin</string>
+    <string name="rulhutB2">  ● Chaw leh tui thianghlimlo atangin</string>
+    <string name="rulhutB3">  ● Chaw (a bikin hnim hring) chhum hmin tawkloh</string>
+    <string name="rulhutC1">  ● Chaw ei tui lo</string>
+    <string name="rulhutC2">  ● Taksa thang tha thei lo leh thau thei lo</string>
+    <string name="rulhutC3">  ● Taksa ti zauthauin vawk thenkhat chu an awm hle hle theilo</string>
+    <string name="rulhutD1">  ● Ivermectin</string>
+    <string name="rulhutD2">  ● Albendazole</string>
+    <string name="rulhutD3">  ● Fenbendazole</string>
+    <string name="rulhutE1">  ● Thla hnih danah tal Vawk Rulhuthlo pek ngei ngei</string>
+    <string name="rulhutE2">  ● Vawk chaw chhum hmin that</string>
+    <string name="rulhutE3">  ● Vawk In leh a velah ran dang tlattir loh</string>
+    <string name="rulhutE4">  ● Vawk In leh a vel thianghlim leh fai taka enkawl</string>
+
+
+    <string name="hnimhringTurNei">Hnimhring tûr neite</string>
+    <string name="vawkpuiTlusawpA">  ● Calcium tlakchhamna</string>
+    <string name="vawkpuiTlusawpB1">  ● Vawkpui railai taksa a Calcium chu nasa takin Vawk note in ruhrel siamnan a hip</string>
+    <string name="vawkpuiTlusawpB2">  ● Vawk note an pianchhuah hnu lawkah Calcium tlakchham avang hian an tluksawp phah thin</string>
+    <string name="vawkpuiTlusawpC1">  ● No neih hnu lawka Vawkpui tlusawp</string>
+    <string name="vawkpuiTlusawpC2">  ● Vawkpui chu hrisel leh harh tak, mahse dingchhuak thei lo</string>
+    <string name="vawkpuiTlusawpD">  ● Calcium Borogluconate drip khai</string>
+    <string name="vawkpuiTlusawpE1">  ● Vawkpuiin no a pailai thla 3-na atangin nitinin Calcium Supplement pek tan tawh tur</string>
+    <string name="vawkpuiTlusawpE2">  ● Calcium supplement hi Vawkpuiin no a chawmlai thlengin a hnutetui tih tamnan a pawimawh a ni</string>
+
+    <string name="hmandan">HMANDAN TUR</string>
+    <string name="remarks">REMARKS</string>
+
+    <string name="natnaLehHri">Natna leh hri</string>
+    <string name="ar">Ar</string>
+    <string name="sodaHmandan">  ● Tuiso litre 1 + Soda Thirfiante 2</string>
+    <string name="sodaRemarks1">  ● Hei hian natna hrik tamtak a that thei</string>
+    <string name="sodaRemarks2">  ● A chak em em lo</string>
+
+    <string name="vawk">Vawk</string>
+    <string name="chinaiAHmandan">  ● Tui 4 litre + Chinai Kg chanve + Phenol Bottle chin khat</string>
+    <string name="chinaiARemarks1">  ● Hei hian natna hrik tamtak a that thei</string>
+    <string name="chinaiARemarks2">  ● A chak hle</string>
+    <string name="chinaiARemarks3">  ● Siamsa hun reitak chhung dah chuan a chakna a tlahniam thei</string>
+    <string name="chinaiBHmandan">  ● Chinai ro</string>
+    <string name="chinaiBRemarks1">  ● Chinai ro hi ran in chhuat vela thehin natna hri tamtak a thah theih</string>
+    <string name="chinaiBRemarks2">  ● Kutkawr (glove) hman tur</string>
+
+    <string name="tuisenHmandan">  ● Tui litre 10 + Tuisen powder thirfiante 1</string>
+    <string name="tuisenRemarks1">  ● Natna hrik tamtak a that thei</string>
+    <string name="tuisenRemarks2">  ● Tuisen powder hi a man a to loh avangin hman tlanglawnber a ni</string>
+
+    <string name="phenolHmandan">  ● Tui litre 10 + Phenol bottle chin 1</string>
+    <string name="phenolRemarks1">  ● Natna hrik tamtak a that thei</string>
+    <string name="phenolRemarks2">  ● Thir (metallic objects) tihfainan him takin a hman theih</string>
+
+    <string name="sodiumHmandan">  ● Sodium Hydroxide 2 gm + Tui 10 litres</string>
+    <string name="sodiumRemarks1">  ● Natna hrik tamtak a that thei</string>
+    <string name="sodiumRemarks2">  ● Thir (Metallic objects) a ti tui-ek thei</string>
+
+    <string name="bleachingHmandan">  ● A ro (dry) in a hman theih. Ran in chhuat leh bang velah theh mai tur a ni</string>
+    <string name="bleachingRemarks1">  ● Natna hrik tamtak a that thei a</string>
+    <string name="bleachingRemarks2">  ● Vun tan a hriselloh avangin kutkawr (glove) hman thin tur a ni</string>
+
+
+    <string name="ranInTihFaiDan">Ran in tihfai dan</string>
+</resources>

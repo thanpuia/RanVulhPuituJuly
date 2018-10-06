@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Vawk_hnimHringTurNei_Mutih_enkawldan">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/turHnathawhLanchhuahdan"
+                android:textStyle="bold"
+                android:layout_margin="@dimen/headingMargin"
+                android:textSize="@dimen/headingTextSize"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textSize"
+                android:layout_margin="@dimen/bodyMargin"
+                android:text="@string/mutihD1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textSize"
+                android:layout_margin="@dimen/bodyMargin"
+                android:text="@string/mutihD2"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textSize"
+                android:layout_margin="@dimen/bodyMargin"
+                android:text="@string/mutihD3"/>
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                android:textSize="@dimen/textSize"
+                android:layout_margin="@dimen/bodyMargin"
+            android:text="@string/mutihD4"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textSize"
+                android:layout_margin="@dimen/bodyMargin"
+                android:text="@string/mutihD5"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textSize"
+                android:layout_margin="@dimen/bodyMargin"
+                android:text="@string/mutihD6"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textSize"
+                android:layout_margin="@dimen/bodyMargin"
+                android:text="@string/mutihD7"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textSize"
+                android:layout_margin="@dimen/bodyMargin"
+                android:text="@string/mutihD8"/>
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/turAvangaHarsatnaNeiEnkawldan"
+                android:textStyle="bold"
+                android:layout_margin="@dimen/headingMargin"
+                android:textSize="@dimen/headingTextSize"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textSize"
+                android:text="@string/mutihE1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textSize"
+                android:text="@string/mutihE2"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textSize"
+                android:text="@string/mutihE3"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/spaceHelper"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:text="...."/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

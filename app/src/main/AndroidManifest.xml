@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.root.ranvulhpuitu">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ran_logo2"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashScreen"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".ar" />
+        <activity
+            android:name=".Ar_MarekDisease"
+            android:label="@string/title_activity_ar__marek_disease"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Ar_InfectiousBursalDiseases"
+            android:label="@string/title_activity_ar__infectious_bursal_diseases"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Ar_EggDropSyndrome"
+            android:label="@string/title_activity_ar__egg_drop_syndrome"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Ar_FowlCholera"
+            android:label="@string/title_activity_ar__fowl_cholera"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Ar_FowlPox"
+            android:label="@string/title_activity_ar__fowl_pox"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Ar_NewcastleDisease"
+            android:label="@string/title_activity_ar__newcastle_disease"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Ar_InfectiousBronchitis"
+            android:label="@string/title_activity_ar__infectious_bronchitis"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Ar_AvianInfluenza"
+            android:label="@string/title_activity_ar__avian_influenza"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Ar_InfectiousCoryza"
+            android:label="@string/title_activity_ar__infectious_coryza"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Ar_InfectiousLaryngotracheitis"
+            android:label="@string/title_activity_ar__infectious_laryngotracheitis"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Ar_Pullorum"
+            android:label="@string/title_activity_ar__pullorum"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Ar_Botulism"
+            android:label="@string/title_activity_ar__botulism"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Ar_Staphylococcus"
+            android:label="@string/title_activity_ar__staphylococcus"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Vawk" />
+        <activity
+            android:name=".Vawk_natnaLehHri_VawkPulHri"
+            android:label="@string/title_activity_vawk_natna_leh_hri__vawk_pul_hri"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Vawk_vawkNatnaLehHri" />
+        <activity android:name=".Vawk_natnaLehHri" />
+        <activity android:name=".Vawk_ranInTihfaiDan" />
+        <activity android:name=".Vawk_hnimhringTurNeite" />
+        <activity
+            android:name=".Vawk_natnaLehHri_PRRS"
+            android:label="@string/title_activity_vawk_natna_leh_hri__prrs"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Vawk_natnaLehHri_VawkPhar"
+            android:label="@string/title_activity_vawk_natna_leh_hri__vawk_phar"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Vawk_natnaLehHri_SakawrEkHrikNatna"
+            android:label="@string/title_activity_vawk_natna_leh_hri__sakawr_ek_hrik_natna"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Vawk_natnaLehHri_Rulhut"
+            android:label="@string/title_activity_vawk_natna_leh_hri__rulhut"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Vawk_natnaLehHri_VawkpuiTlusawp"
+            android:label="@string/title_activity_vawk_natna_leh_hri__vawkpui_tlusawp"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Vawk_hnimHringTurNei_savaMit"
+            android:label="@string/title_activity_vawk_hnim_hring_tur_nei_sava_mit"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Vawk_hnimHringTurNei_Katchat"
+            android:label="@string/title_activity_vawk_hnim_hring_tur_nei__katchat"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Vawk_hnimHringTurNei_Mutih"
+            android:label="@string/title_activity_vawk_hnim_hring_tur_nei__mutih"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Vawk_hnimHringTurNei_TawtawrawtVar"
+            android:label="@string/title_activity_vawk_hnim_hring_tur_nei__tawtawrawt_var"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Vawk_hnimHringTurNei_Vawk_hnimHringTurNei_TawtawrawtPawl"
+            android:label="@string/title_activity_vawk_hnim_hring_tur_nei__vawk_hnim_hring_tur_nei__tawtawrawt_pawl"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Vawk_hnimHringTurNei_Shillong"
+            android:label="@string/title_activity_vawk_hnim_hring_tur_nei__shillong"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Vawk_hnimHringTurNei_kanaan"
+            android:label="@string/title_activity_vawk_hnim_hring_tur_nei_kanaan"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Vawk_ranInTihfaiDan_Soda" />
+        <activity android:name=".Vawk_ranInTihfaiDan_Chinai" />
+        <activity android:name=".Vawk_ranInTihfaiDan_Tuisen" />
+        <activity android:name=".Vawk_ranInTihfaiDan_Phenol" />
+        <activity android:name=".Vawk_ranInTihfaiDan_Sodium" />
+        <activity android:name=".Vawk_ranInTihfaiDan_Bleaching" />
+        <activity android:name=".ZoomableImage" />
+        <activity android:name=".img_stap" />
+        <activity android:name=".img_avian" />
+        <activity android:name=".img_marek" />
+        <activity android:name=".img_ibd" />
+        <activity android:name=".img_eggDrop" />
+        <activity android:name=".img_fowlCholera" />
+        <activity android:name=".img_fowlPox" />
+        <activity android:name=".img_newcastle" />
+        <activity android:name=".img_ib" />
+        <activity android:name=".img_ic" />
+        <activity android:name=".img_il" />
+        <activity android:name=".img_pullorum" />
+        <activity android:name=".img_botulism"></activity>
+    </application>
+
+</manifest>

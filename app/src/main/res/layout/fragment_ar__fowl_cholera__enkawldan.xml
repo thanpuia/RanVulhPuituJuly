@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ar_FowlCholera_Enkawldan">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/headingMargin"
+                android:text="@string/enkawlDan"
+                android:textSize="@dimen/headingTextSize"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/bodyMargin"
+                android:textSize="@dimen/textSize"
+                android:text="@string/FC_C_1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/bodyMargin"
+                android:textSize="@dimen/textSize"
+                android:text="@string/FC_C_2"/>
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/headingMargin"
+                android:text="@string/venDan"
+                android:textSize="@dimen/headingTextSize"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/bodyMargin"
+                android:textSize="@dimen/textSize"
+                android:text="@string/FC_D_1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/bodyMargin"
+                android:textSize="@dimen/textSize"
+                android:text="@string/FC_D_2"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/bodyMargin"
+                android:textSize="@dimen/textSize"
+                android:text="@string/FC_D_3"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/spaceHelper"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:text="...."/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

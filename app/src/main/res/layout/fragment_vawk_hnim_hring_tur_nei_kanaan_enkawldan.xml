@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Vawk_hnimHringTurNei_kanaan_enkawldan">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/turHnathawhLanchhuahdan"
+                android:textStyle="bold"
+                android:layout_margin="@dimen/headingMargin"
+                android:textSize="@dimen/headingTextSize"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textSize"
+                android:layout_margin="@dimen/bodyMargin"
+                android:text="@string/kanaanD1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textSize"
+                android:layout_margin="@dimen/bodyMargin"
+                android:text="@string/kanaanD2"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textSize"
+                android:layout_margin="@dimen/bodyMargin"
+                android:text="@string/kanaanD3"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textSize"
+                android:layout_margin="@dimen/bodyMargin"
+                android:text="@string/kanaanD4"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textSize"
+                android:layout_margin="@dimen/bodyMargin"
+                android:text="@string/kanaanD5"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textSize"
+                android:layout_margin="@dimen/bodyMargin"
+                android:text="@string/kanaanD6"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/turAvangaHarsatnaNeiEnkawldan"
+                android:textStyle="bold"
+                android:layout_margin="@dimen/headingMargin"
+                android:textSize="@dimen/headingTextSize"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textSize"
+                android:layout_margin="@dimen/bodyMargin"
+                android:text="@string/kanaanE1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textSize"
+                android:layout_margin="@dimen/bodyMargin"
+                android:text="@string/kanaanE2"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textSize"
+                android:layout_margin="@dimen/bodyMargin"
+                android:text="@string/kanaanE3"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textSize"
+                android:layout_margin="@dimen/bodyMargin"
+                android:text="@string/kanaanE4"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textSize"
+                android:layout_margin="@dimen/bodyMargin"
+                android:text="@string/kanaanE5"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/spaceHelper"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:text="...."/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

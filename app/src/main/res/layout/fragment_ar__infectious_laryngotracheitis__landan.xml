@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ar_InfectiousLaryngotracheitis_Landan">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/headingMargin"
+                android:text="@string/landan"
+                android:textSize="@dimen/headingTextSize"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/bodyMargin"
+                android:textSize="@dimen/textSize"
+                android:text="@string/IL_A_1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/bodyMargin"
+                android:textSize="@dimen/textSize"
+                android:text="@string/IL_A_2"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/bodyMargin"
+                android:textSize="@dimen/textSize"
+                android:text="@string/IL_A_3"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/bodyMargin"
+                android:textSize="@dimen/textSize"
+                android:text="@string/IL_A_4"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/bodyMargin"
+                android:textSize="@dimen/textSize"
+                android:text="@string/IL_A_5"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/bodyMargin"
+                android:textSize="@dimen/textSize"
+                android:text="@string/IL_A_6"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/headingMargin"
+                android:text="@string/darhDan"
+                android:textSize="@dimen/headingTextSize"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/bodyMargin"
+                android:textSize="@dimen/textSize"
+                android:text="@string/IL_B_1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/bodyMargin"
+                android:textSize="@dimen/textSize"
+                android:text="@string/IL_B_2"/>
+
+            <ImageView
+                android:id="@+id/il1"
+                android:onClick="il1Click"
+                android:layout_margin="@dimen/bodyMargin"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/zoomImageView"
+                android:src="@drawable/il1_big"/>
+
+            <ImageView
+                android:id="@+id/il2"
+                android:onClick="il2Click"
+                android:layout_margin="@dimen/bodyMargin"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/zoomImageView"
+                android:src="@drawable/il2_big"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/spaceHelper"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:text="...."/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
