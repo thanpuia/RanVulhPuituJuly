@@ -21,6 +21,9 @@ import android.view.ViewGroup;
 
 import android.widget.TextView;
 
+import static com.example.root.ranvulhpuitu.MainActivity.mediaPlayerBack;
+import static com.example.root.ranvulhpuitu.MainActivity.sound;
+
 public class Ar_Staphylococcus extends AppCompatActivity {
 
     /**
@@ -37,6 +40,14 @@ public class Ar_Staphylococcus extends AppCompatActivity {
      * The {@link ViewPager} that will host the section contents.
      */
     private ViewPager mViewPager;
+
+    @Override
+    public void onBackPressed() {
+        if(sound)
+            mediaPlayerBack.start();
+        super.onBackPressed();
+    }
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -64,6 +75,9 @@ public class Ar_Staphylococcus extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
+                if(sound)
+                    MainActivity.mediaPlayerSent.start();
                 WhatsApp send = new WhatsApp(Ar_Staphylococcus.this);
                 send.whatsappSend();
             }

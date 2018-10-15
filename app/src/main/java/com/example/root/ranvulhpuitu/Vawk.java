@@ -15,6 +15,9 @@ import com.mikhaellopez.circularimageview.CircularImageView;
 
 import spencerstudios.com.bungeelib.Bungee;
 
+import static com.example.root.ranvulhpuitu.MainActivity.mediaPlayerBack;
+import static com.example.root.ranvulhpuitu.MainActivity.sound;
+
 public class Vawk extends AppCompatActivity {
 
     ListView listView;
@@ -22,7 +25,13 @@ public class Vawk extends AppCompatActivity {
 
     String[] vawkList;
     int[] vawkTitlePic;
-
+    
+    @Override
+    public void onBackPressed() {
+        if(sound)
+            mediaPlayerBack.start();
+        super.onBackPressed();
+    }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -46,12 +55,18 @@ public class Vawk extends AppCompatActivity {
                 //
                 switch(position){
                     case 0:startActivity(new Intent(Vawk.this, Vawk_natnaLehHri.class));
+                        if(sound)
+                            MainActivity.mediaPlayer.start();
                         Bungee.zoom(Vawk.this);  //fire the zoom animation
                         break;
                     case 1:startActivity(new Intent(Vawk.this, Vawk_ranInTihfaiDan.class));
+                        if(sound)
+                            MainActivity.mediaPlayer.start();
                         Bungee.zoom(Vawk.this);  //fire the zoom animation
                         break;
                     case 2:startActivity(new Intent(Vawk.this, Vawk_hnimhringTurNeite.class));
+                        if(sound)
+                            MainActivity.mediaPlayer.start();
                         Bungee.zoom(Vawk.this);  //fire the zoom animation
                         break;
                 }

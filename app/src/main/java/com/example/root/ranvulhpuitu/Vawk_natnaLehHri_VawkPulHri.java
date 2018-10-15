@@ -19,6 +19,9 @@ import android.view.ViewGroup;
 
 import android.widget.TextView;
 
+import static com.example.root.ranvulhpuitu.MainActivity.mediaPlayerBack;
+import static com.example.root.ranvulhpuitu.MainActivity.sound;
+
 public class Vawk_natnaLehHri_VawkPulHri extends AppCompatActivity {
 
     /**
@@ -35,6 +38,14 @@ public class Vawk_natnaLehHri_VawkPulHri extends AppCompatActivity {
      * The {@link ViewPager} that will host the section contents.
      */
     private ViewPager mViewPager;
+
+    @Override
+    public void onBackPressed() {
+        if(sound)
+            mediaPlayerBack.start();
+        super.onBackPressed();
+    }
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -62,6 +73,9 @@ public class Vawk_natnaLehHri_VawkPulHri extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
+                if(sound)
+                    MainActivity.mediaPlayerSent.start();
                 WhatsApp send = new WhatsApp(Vawk_natnaLehHri_VawkPulHri.this);
                 send.whatsappSend();
             }

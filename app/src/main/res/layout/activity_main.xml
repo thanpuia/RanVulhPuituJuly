@@ -8,11 +8,30 @@
     android:background="@color/black"
     android:orientation="vertical">
 
-    <ImageView
-        android:id="@+id/neida_header"
+    <LinearLayout
+        android:id="@+id/banner"
         android:layout_width="match_parent"
         android:layout_height="160dp"
-        android:background="@color/colorAccent"/>
+        android:background="@color/black"
+        android:onClick="bannerClick"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NEIDA"
+            android:textColor="@color/cream"
+            android:textSize="39dp"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bannerBody"
+            android:textColor="@color/cream"
+            android:textSize="16dp"
+            android:gravity="center"/>
+
+</LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -27,6 +46,7 @@
             android:gravity="center"
             android:textSize="35dp"
             android:background="@color/colorPrimaryDark"
+
             android:layout_weight="1"
             android:textColor="@color/cream"
             android:onClick="vawkButtonClick"
@@ -36,10 +56,11 @@
             android:id="@+id/arText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Ar "
+            android:text="   Ar   "
             android:textSize="35dp"
-            android:gravity="center"
             android:background="@color/colorPrimary"
+
+            android:gravity="center"
             android:layout_weight="1"
             android:textColor="@color/cream"
             android:onClick="arButtonClick"

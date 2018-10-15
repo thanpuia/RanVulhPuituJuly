@@ -17,6 +17,9 @@ import com.mikhaellopez.circularimageview.CircularImageView;
 
 import spencerstudios.com.bungeelib.Bungee;
 
+import static com.example.root.ranvulhpuitu.MainActivity.mediaPlayerBack;
+import static com.example.root.ranvulhpuitu.MainActivity.sound;
+
 public class ar extends AppCompatActivity {
     ListView lv;
     Integer[] images;
@@ -24,6 +27,13 @@ public class ar extends AppCompatActivity {
     //public ImageView imageView;
     public CircularImageView circularImageView;
     public TextView textView;
+
+    @Override
+    public void onBackPressed() {
+        if(sound)
+            mediaPlayerBack.start();
+        super.onBackPressed();
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,14 +64,20 @@ public class ar extends AppCompatActivity {
                 //Toast.makeText(getApplication(),""+position,Toast.LENGTH_SHORT).show();
                 switch (position){
                     case 0:
+                        if(sound)
+                            MainActivity.mediaPlayer.start();
                         startActivity(new Intent(ar.this, Ar_MarekDisease.class));
                         Bungee.zoom(ar.this);  //fire the zoom animation
                         ;break;
                     case 1:
+                        if(sound)
+                            MainActivity.mediaPlayer.start();
                         startActivity(new Intent(ar.this, Ar_InfectiousBursalDiseases.class));
                         Bungee.zoom(ar.this);  //fire the zoom animation
                         ;break;
                     case 2:
+                        if(sound)
+                            MainActivity.mediaPlayer.start();
                         startActivity(new Intent(ar.this, Ar_EggDropSyndrome.class));
                         Bungee.zoom(ar.this);  //fire the zoom animation
                         ;break;
@@ -70,38 +86,56 @@ public class ar extends AppCompatActivity {
                         Bungee.zoom(ar.this);  //fire the zoom animation
                         ;break;
                     case 4:
+                        if(sound)
+                            MainActivity.mediaPlayer.start();
                         startActivity(new Intent(ar.this, Ar_FowlPox.class));
                         Bungee.zoom(ar.this);  //fire the zoom animation
                         ;break;
                     case 5:
+                        if(sound)
+                            MainActivity.mediaPlayer.start();
                         startActivity(new Intent(ar.this, Ar_NewcastleDisease.class));
                         Bungee.zoom(ar.this);  //fire the zoom animation
                         ;break;
                     case 6:
+                        if(sound)
+                            MainActivity.mediaPlayer.start();
                         startActivity(new Intent(ar.this, Ar_InfectiousBronchitis.class));
                          Bungee.zoom(ar.this);  //fire the zoom animation
                          ;break;
                     case 7:
+                        if(sound)
+                            MainActivity.mediaPlayer.start();
                         startActivity(new Intent(ar.this, Ar_AvianInfluenza.class));
                         Bungee.zoom(ar.this);  //fire the zoom animation
                         ;break;
                     case 8:
+                        if(sound)
+                            MainActivity.mediaPlayer.start();
                         startActivity(new Intent(ar.this, Ar_InfectiousCoryza.class));
                         Bungee.zoom(ar.this);  //fire the zoom animation
                         ;break;
                     case 9:
+                        if(sound)
+                            MainActivity.mediaPlayer.start();
                         startActivity(new Intent(ar.this, Ar_InfectiousLaryngotracheitis.class));
                         Bungee.zoom(ar.this);  //fire the zoom animation
                         ;break;
                     case 10:
+                        if(sound)
+                            MainActivity.mediaPlayer.start();
                         startActivity(new Intent(ar.this, Ar_Pullorum.class));
                         Bungee.zoom(ar.this);  //fire the zoom animation
                         ;break;
                     case 11:
+                        if(sound)
+                            MainActivity.mediaPlayer.start();
                         startActivity(new Intent(ar.this, Ar_Botulism.class));
                         Bungee.zoom(ar.this);  //fire the zoom animation
                         ;break;
                     case 12:
+                        if(sound)
+                            MainActivity.mediaPlayer.start();
                         startActivity(new Intent(ar.this, Ar_Staphylococcus.class));
                         Bungee.zoom(ar.this);  //fire the zoom animation
                         ;break;

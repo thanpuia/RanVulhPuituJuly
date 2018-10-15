@@ -20,6 +20,9 @@ import android.view.ViewGroup;
 
 import android.widget.TextView;
 
+import static com.example.root.ranvulhpuitu.MainActivity.mediaPlayerBack;
+import static com.example.root.ranvulhpuitu.MainActivity.sound;
+
 public class Ar_AvianInfluenza extends AppCompatActivity {
 
     /**
@@ -36,6 +39,13 @@ public class Ar_AvianInfluenza extends AppCompatActivity {
      * The {@link ViewPager} that will host the section contents.
      */
     private ViewPager mViewPager;
+
+    @Override
+    public void onBackPressed() {
+        if(sound)
+            mediaPlayerBack.start();
+        super.onBackPressed();
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -68,6 +78,8 @@ public class Ar_AvianInfluenza extends AppCompatActivity {
                /* Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                      .setAction("Action", null).show(); */
 
+                if(sound)
+                    MainActivity.mediaPlayerSent.start();
                 WhatsApp send = new WhatsApp(Ar_AvianInfluenza.this);
                 send.whatsappSend();
             }

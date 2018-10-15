@@ -15,6 +15,9 @@ import com.mikhaellopez.circularimageview.CircularImageView;
 
 import spencerstudios.com.bungeelib.Bungee;
 
+import static com.example.root.ranvulhpuitu.MainActivity.mediaPlayerBack;
+import static com.example.root.ranvulhpuitu.MainActivity.sound;
+
 public class Vawk_ranInTihfaiDan extends AppCompatActivity {
 
     ListView listView;
@@ -22,6 +25,14 @@ public class Vawk_ranInTihfaiDan extends AppCompatActivity {
     CustomAdapter customAdapter;
     String[] vawkRanInList;
     int[] vawkRanInPic;
+
+    @Override
+    public void onBackPressed() {
+        if(sound)
+            mediaPlayerBack.start();
+        super.onBackPressed();
+    }
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,21 +55,33 @@ public class Vawk_ranInTihfaiDan extends AppCompatActivity {
                 //
                 switch(position){
                     case 0:startActivity(new Intent(Vawk_ranInTihfaiDan.this, Vawk_ranInTihfaiDan_Soda.class));
+                        if(sound)
+                            MainActivity.mediaPlayer.start();
                         Bungee.zoom(Vawk_ranInTihfaiDan.this);  //fire the zoom animation
                         break;
                     case 1:startActivity(new Intent(Vawk_ranInTihfaiDan.this, Vawk_ranInTihfaiDan_Chinai.class));
+                        if(sound)
+                            MainActivity.mediaPlayer.start();
                         Bungee.zoom(Vawk_ranInTihfaiDan.this);  //fire the zoom animation
                         break;
                     case 2:startActivity(new Intent(Vawk_ranInTihfaiDan.this, Vawk_ranInTihfaiDan_Tuisen.class));
+                        if(sound)
+                            MainActivity.mediaPlayer.start();
                         Bungee.zoom(Vawk_ranInTihfaiDan.this);  //fire the zoom animation
                         break;
                     case 3:startActivity(new Intent(Vawk_ranInTihfaiDan.this, Vawk_ranInTihfaiDan_Phenol.class));
+                        if(sound)
+                            MainActivity.mediaPlayer.start();
                         Bungee.zoom(Vawk_ranInTihfaiDan.this);  //fire the zoom animation
                         break;
                     case 4:startActivity(new Intent(Vawk_ranInTihfaiDan.this, Vawk_ranInTihfaiDan_Sodium.class));
+                        if(sound)
+                            MainActivity.mediaPlayer.start();
                         Bungee.zoom(Vawk_ranInTihfaiDan.this);  //fire the zoom animation
                         break;
                     case 5:startActivity(new Intent(Vawk_ranInTihfaiDan.this, Vawk_ranInTihfaiDan_Bleaching.class));
+                        if(sound)
+                            MainActivity.mediaPlayer.start();
                         Bungee.zoom(Vawk_ranInTihfaiDan.this);  //fire the zoom animation
                         break;
                 }
