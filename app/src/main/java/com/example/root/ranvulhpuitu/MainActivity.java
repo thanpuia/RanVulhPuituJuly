@@ -13,7 +13,11 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.LinearLayout;
+
+import java.util.Random;
 
 import spencerstudios.com.bungeelib.Bungee;
 
@@ -28,18 +32,26 @@ public class MainActivity extends AppCompatActivity {
 
     LinearLayout banner;
     int i=0;
-
+    Random rand = new Random();
     public void bannerClick(View view) {
+        if(sound)
+            mediaPlayer.start();
 
-        i++;
+       /* i++;
         if ((i%2)==0)
             banner.animate().scaleY(2f).scaleX(2f).setDuration(250);
         else
             banner.animate().rotation(340f).setDuration(455);
-
+*/
         //  banner.animate().scaleX(2f).scaleY(2f).setDuration(250);
        // banner.animate().scaleX(2f).scaleY(2f).setDuration(250);
 
+        int [] anim = new int[]{R.anim.diagonal_right_enter,R.anim.zoom_enter,R.anim.card_enter,R.anim.fade_enter,R.anim.shrink_enter,R.anim.windmill_enter,R.anim.slide_up_enter,
+                R.anim.fade_enter,R.anim.spin_enter,R.anim.slide_in_left,R.anim.swipe_left_enter,R.anim.split_enter,R.anim.zoom_enter,R.anim.in_out_enter};
+
+        int newRand = rand.nextInt(14);
+        Animation animation= AnimationUtils.loadAnimation(getApplicationContext(),anim[newRand]);
+        banner.startAnimation(animation);
     }
 
     public void arButtonClick(View view) {

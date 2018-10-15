@@ -28,7 +28,7 @@ public class ar extends AppCompatActivity {
     public CircularImageView circularImageView;
     public TextView textView;
 
-    @Override
+     @Override
     public void onBackPressed() {
         if(sound)
             mediaPlayerBack.start();
@@ -163,7 +163,7 @@ class CustomAdapter extends BaseAdapter {
     }
 
     @Override
-    public View getView(int position, View convertView, ViewGroup parent) {
+    public View getView(final int position, View convertView, ViewGroup parent) {
 
         convertView = getLayoutInflater().inflate(R.layout.custom_row, null);
 
@@ -174,6 +174,17 @@ class CustomAdapter extends BaseAdapter {
         circularImageView.setImageResource(images[position]);
         textView.setText(text[position]);
 
+        circularImageView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                startActivity(new Intent(ar.this, img_ar_zoomGrouping.class).putExtra("position",String.valueOf(position)));
+
+                if(sound)
+                    MainActivity.mediaPlayer.start();
+                Bungee.zoom(ar.this);  //fire the zoom animation
+            }
+        });
         return convertView;
     }
 }

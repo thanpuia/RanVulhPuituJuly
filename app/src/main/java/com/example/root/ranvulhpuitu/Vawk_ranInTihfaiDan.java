@@ -3,6 +3,7 @@ package com.example.root.ranvulhpuitu;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
@@ -10,6 +11,7 @@ import android.widget.ArrayAdapter;
 import android.widget.BaseAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.mikhaellopez.circularimageview.CircularImageView;
 
@@ -41,8 +43,8 @@ public class Vawk_ranInTihfaiDan extends AppCompatActivity {
         getSupportActionBar().setTitle(R.string.ranInTihFaiDan);
 
         vawkRanInList = new String[]{"Soda","Chinai","Tuisen","Phenol","Sodium Hydroxide","Bleaching Powder"};
-        vawkRanInPic = new int[]{R.mipmap.ic_launcher_round,R.mipmap.ic_launcher_round,R.mipmap.ic_launcher_round,
-                                 R.mipmap.ic_launcher_round,R.mipmap.ic_launcher_round,R.mipmap.ic_launcher_round};
+        vawkRanInPic = new int[]{R.drawable.soda2,R.drawable.chinai2,R.drawable.tuisen,
+                                 R.drawable.phenol1,R.drawable.sodium1,R.drawable.bleaching_powder};
 
         listView = findViewById(R.id.vawkRanInListView);
       //  arrayAdapter = new ArrayAdapter(this,android.R.layout.simple_list_item_1,vawkRanInList);
@@ -106,7 +108,7 @@ public class Vawk_ranInTihfaiDan extends AppCompatActivity {
         }
 
         @Override
-        public View getView(int position, View convertView, ViewGroup parent) {
+        public View getView(final int position, View convertView, ViewGroup parent) {
 
             convertView = getLayoutInflater().inflate(R.layout.custom_row, null);
 
@@ -118,6 +120,46 @@ public class Vawk_ranInTihfaiDan extends AppCompatActivity {
 
             circularImageView.setImageResource(vawkRanInPic[position]);
             textView.setText(vawkRanInList[position]);
+
+            circularImageView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                  //  Toast.makeText(getApplicationContext(),position,Toast.LENGTH_SHORT).show();
+                    Log.i("TAGGGG",""+position);
+                    switch(position){
+                        case 0:startActivity(new Intent(Vawk_ranInTihfaiDan.this, img_vawk_ranin_soda.class));
+                            if(sound)
+                                MainActivity.mediaPlayer.start();
+                            Bungee.zoom(Vawk_ranInTihfaiDan.this);  //fire the zoom animation
+                            break;
+                        case 1:startActivity(new Intent(Vawk_ranInTihfaiDan.this, img_vawk_ranin_chinai.class));
+                            if(sound)
+                                MainActivity.mediaPlayer.start();
+                            Bungee.zoom(Vawk_ranInTihfaiDan.this);  //fire the zoom animation
+                            break;
+                        case 2:startActivity(new Intent(Vawk_ranInTihfaiDan.this, img_vawk_ranin_tuisen.class));
+                            if(sound)
+                                MainActivity.mediaPlayer.start();
+                            Bungee.zoom(Vawk_ranInTihfaiDan.this);  //fire the zoom animation
+                            break;
+                        case 3:startActivity(new Intent(Vawk_ranInTihfaiDan.this, img_vawk_ranin_phenol.class));
+                            if(sound)
+                                MainActivity.mediaPlayer.start();
+                            Bungee.zoom(Vawk_ranInTihfaiDan.this);  //fire the zoom animation
+                            break;
+                        case 4:startActivity(new Intent(Vawk_ranInTihfaiDan.this, img_vawk_ranin_sodium.class));
+                            if(sound)
+                                MainActivity.mediaPlayer.start();
+                            Bungee.zoom(Vawk_ranInTihfaiDan.this);  //fire the zoom animation
+                            break;
+                        case 5:startActivity(new Intent(Vawk_ranInTihfaiDan.this, img_vawk_ranin_bleaching.class));
+                            if(sound)
+                                MainActivity.mediaPlayer.start();
+                            Bungee.zoom(Vawk_ranInTihfaiDan.this);  //fire the zoom animation
+                            break;
+                    }
+                }
+            });
 
 
             return convertView;

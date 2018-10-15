@@ -45,9 +45,9 @@ public class Vawk_hnimhringTurNeite extends AppCompatActivity {
 
         hnimHringTurNeiList = new String[]{"Sava Mit","Katchat","Mutih",
                 "Tawtawrawt Par (A Var)","Tawtawrawt Par (A Pawl)","Shillong Tlangsam","Kanaan Par"};
-        hnimHringTurNeiPic = new int[]{R.mipmap.ic_launcher_round,R.mipmap.ic_launcher_round,R.mipmap.ic_launcher_round,
-                                     R.mipmap.ic_launcher_round,R.mipmap.ic_launcher_round,R.mipmap.ic_launcher_round,
-                R.mipmap.ic_launcher_round};
+        hnimHringTurNeiPic = new int[]{R.drawable.sava_mit,R.drawable.katchat,R.drawable.mutih,
+                                     R.drawable.tawtawrawt_var,R.drawable.tawtawrawt_pawl,R.drawable.shillong,
+                R.drawable.kanaan_par};
 
         listView= findViewById(R.id.vawkHnimHringTurNeiList);
         customAdapter = new CustomAdapter();
@@ -115,11 +115,11 @@ public class Vawk_hnimhringTurNeite extends AppCompatActivity {
             return 0;
         }
         @Override
-        public View getView(int position, View convertView, ViewGroup parent) {
+        public View getView(final int position, View convertView, ViewGroup parent) {
 
             convertView = getLayoutInflater().inflate(R.layout.custom_row, null);
 
-            CircularImageView circularImageView;
+            final CircularImageView circularImageView;
             TextView textView;
             // imageView = convertView.findViewById(R.id.customRow_ImageView);
             circularImageView = convertView.findViewById(R.id.customRow_ImageView);
@@ -128,7 +128,18 @@ public class Vawk_hnimhringTurNeite extends AppCompatActivity {
             circularImageView.setImageResource(hnimHringTurNeiPic[position]);
 
             textView.setText(hnimHringTurNeiList[position]);
-Log.i("tag",""+hnimHringTurNeiList[position]);
+
+            circularImageView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+
+                    startActivity(new Intent(Vawk_hnimhringTurNeite.this, img_vawk_hnimhringTurNei_.class).putExtra("position",String.valueOf(position)));
+
+                    if(sound)
+                        MainActivity.mediaPlayer.start();
+                    Bungee.zoom(Vawk_hnimhringTurNeite.this);  //fire the zoom animation
+                }
+            });
 
             return convertView;
         }

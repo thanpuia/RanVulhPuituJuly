@@ -148,7 +148,21 @@
         <activity android:name=".img_ic" />
         <activity android:name=".img_il" />
         <activity android:name=".img_pullorum" />
-        <activity android:name=".img_botulism"></activity>
+        <activity android:name=".img_botulism" />
+        <activity android:name=".img_vawk_ranin_soda" />
+        <activity android:name=".img_vawk_ranin_chinai" />
+        <activity android:name=".img_vawk_ranin_tuisen" />
+        <activity android:name=".img_vawk_ranin_phenol" />
+        <activity android:name=".img_vawk_ranin_sodium" />
+        <activity android:name=".img_vawk_ranin_bleaching" />
+        <activity android:name=".img_vawk_natnaLehHri_vawkpulhri" />
+        <activity android:name=".img_vawk_natnaLehHri_prrs" />
+        <activity android:name=".img_vawk_natnaLehHri_vawkPhar" />
+        <activity android:name=".img_vawk_natnaLehHri_rulhut" />
+        <activity android:name=".img_vawk_natnaLehHri_vawkpuiTlusawp" />
+        <activity android:name=".img_vawk_natnaLehHri_vawkSakawrEk" />
+        <activity android:name=".img_vawk_hnimhringTurNei_" />
+        <activity android:name=".img_ar_zoomGrouping"></activity>
     </application>
 
 </manifest>

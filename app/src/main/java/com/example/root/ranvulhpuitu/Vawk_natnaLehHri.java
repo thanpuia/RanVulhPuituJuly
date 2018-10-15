@@ -3,6 +3,7 @@ package com.example.root.ranvulhpuitu;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
@@ -49,7 +50,7 @@ public class Vawk_natnaLehHri extends AppCompatActivity {
         getSupportActionBar().setTitle(R.string.natnaLehHri);
 
         vawkNatnaList = new String[]{"Vawk Pul Hri","PRRS","Vawk Phar","Sakawr Ek Hrik Natna","Rulhut","Vawkpui tlusawp"};
-        vawkNatnaPic = new int[]{R.mipmap.ic_launcher_round,R.mipmap.ic_launcher_round,R.mipmap.ic_launcher_round,R.mipmap.ic_launcher_round,R.mipmap.ic_launcher_round,R.mipmap.ic_launcher_round};
+        vawkNatnaPic = new int[]{R.drawable.vawk_pulhri,R.drawable.prrs,R.drawable.vawk_phar,R.drawable.vawk_sakawr_ek_hrik,R.drawable.vawk_rulhut,R.drawable.vawk_tlusawp};
 
 
         listView = findViewById(R.id.list_item);
@@ -64,7 +65,6 @@ public class Vawk_natnaLehHri extends AppCompatActivity {
                 //Toast.makeText(getApplication(),""+position,Toast.LENGTH_SHORT).show();
                 switch(position){
                     case 0:startActivity(new Intent(Vawk_natnaLehHri.this, Vawk_natnaLehHri_VawkPulHri.class));
-
                         if(sound)
                             MainActivity.mediaPlayer.start();
                         Bungee.zoom(Vawk_natnaLehHri.this);  //fire the zoom animation
@@ -123,7 +123,7 @@ public class Vawk_natnaLehHri extends AppCompatActivity {
         }
 
         @Override
-        public View getView(int position, View convertView, ViewGroup parent) {
+        public View getView(final int position, View convertView, ViewGroup parent) {
 
             convertView = getLayoutInflater().inflate(R.layout.custom_row, null);
 
@@ -136,6 +136,50 @@ public class Vawk_natnaLehHri extends AppCompatActivity {
             circularImageView.setImageResource(vawkNatnaPic[position]);
             textView.setText(vawkNatnaList[position]);
 
+            circularImageView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    //  Toast.makeText(getApplicationContext(),position,Toast.LENGTH_SHORT).show();
+                   // Log.i("TAGGGG",""+ position);
+                    switch(position){
+                        case 0:startActivity(new Intent(Vawk_natnaLehHri.this, img_vawk_natnaLehHri_vawkpulhri.class));
+                            if(sound)
+                                MainActivity.mediaPlayer.start();
+                            Bungee.zoom(Vawk_natnaLehHri.this);  //fire the zoom animation
+                            break;
+                        case 1:startActivity(new Intent(Vawk_natnaLehHri.this, img_vawk_natnaLehHri_prrs.class));
+                            if(sound)
+                                MainActivity.mediaPlayer.start();
+                            Bungee.zoom(Vawk_natnaLehHri.this);  //fire the zoom animation
+                            break;
+                        case 2:startActivity(new Intent(Vawk_natnaLehHri.this, img_vawk_natnaLehHri_vawkPhar.class));
+
+                            if(sound)
+                                MainActivity.mediaPlayer.start();
+                            Bungee.zoom(Vawk_natnaLehHri.this);  //fire the zoom animation
+                            break;
+                        case 3:startActivity(new Intent(Vawk_natnaLehHri.this, img_vawk_natnaLehHri_vawkSakawrEk.class));
+
+                            if(sound)
+                                MainActivity.mediaPlayer.start();
+                            Bungee.zoom(Vawk_natnaLehHri.this);  //fire the zoom animation
+                            break;
+                        case 4:startActivity(new Intent(Vawk_natnaLehHri.this, img_vawk_natnaLehHri_rulhut.class));
+
+                            if(sound)
+                                MainActivity.mediaPlayer.start();
+                            Bungee.zoom(Vawk_natnaLehHri.this);  //fire the zoom animation
+                            break;
+                        case 5:startActivity(new Intent(Vawk_natnaLehHri.this, img_vawk_natnaLehHri_vawkpuiTlusawp.class));
+
+                            if(sound)
+                                MainActivity.mediaPlayer.start();
+                            Bungee.zoom(Vawk_natnaLehHri.this);  //fire the zoom animation
+                            break;
+                    }
+
+                }
+            });
 
             return convertView;
         }
