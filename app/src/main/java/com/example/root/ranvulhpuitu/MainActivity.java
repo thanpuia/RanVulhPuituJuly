@@ -4,11 +4,8 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.media.MediaPlayer;
-import android.os.Handler;
-import android.provider.MediaStore;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -37,17 +34,10 @@ public class MainActivity extends AppCompatActivity {
         if(sound)
             mediaPlayer.start();
 
-       /* i++;
-        if ((i%2)==0)
-            banner.animate().scaleY(2f).scaleX(2f).setDuration(250);
-        else
-            banner.animate().rotation(340f).setDuration(455);
-*/
-        //  banner.animate().scaleX(2f).scaleY(2f).setDuration(250);
-       // banner.animate().scaleX(2f).scaleY(2f).setDuration(250);
-
-        int [] anim = new int[]{R.anim.diagonal_right_enter,R.anim.zoom_enter,R.anim.card_enter,R.anim.fade_enter,R.anim.shrink_enter,R.anim.windmill_enter,R.anim.slide_up_enter,
-                R.anim.fade_enter,R.anim.spin_enter,R.anim.slide_in_left,R.anim.swipe_left_enter,R.anim.split_enter,R.anim.zoom_enter,R.anim.in_out_enter};
+        int [] anim = new int[]{R.anim.diagonal_right_enter,R.anim.zoom_enter,R.anim.card_enter,R.anim.fade_enter,R.anim.shrink_enter,
+                R.anim.windmill_enter,R.anim.slide_up_enter,
+                R.anim.fade_enter,R.anim.spin_enter,R.anim.slide_in_left,R.anim.swipe_left_enter,R.anim.split_enter,
+                R.anim.zoom_enter,R.anim.in_out_enter};
 
         int newRand = rand.nextInt(14);
         Animation animation= AnimationUtils.loadAnimation(getApplicationContext(),anim[newRand]);
