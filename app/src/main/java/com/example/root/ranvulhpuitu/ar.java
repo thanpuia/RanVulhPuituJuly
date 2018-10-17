@@ -82,6 +82,8 @@ public class ar extends AppCompatActivity {
                         Bungee.zoom(ar.this);  //fire the zoom animation
                         ;break;
                     case 3:
+                        if(sound)
+                            MainActivity.mediaPlayer.start();
                         startActivity(new Intent(ar.this, Ar_FowlCholera.class));
                         Bungee.zoom(ar.this);  //fire the zoom animation
                         ;break;
