@@ -40,7 +40,7 @@ public class Vawk extends AppCompatActivity {
         getSupportActionBar().setTitle(R.string.vawk);
 
         vawkList = new String[]{"Natna leh hri","Ran in tihfai dan","Hnimhring tûr neite"};
-        vawkTitlePic = new int[]{R.mipmap.ic_launcher,R.mipmap.ic_launcher,R.mipmap.ic_launcher};
+        vawkTitlePic = new int[]{R.drawable.ran_hri,R.drawable.ranin,R.drawable.poison_plant};
 
 
         listView = findViewById(R.id.list_item);

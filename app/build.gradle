@@ -6,8 +6,8 @@ android {
         applicationId "com.ranvulhpuitu.lalthanpuia.ranvulhpuitu"
         minSdkVersion 16
         targetSdkVersion 27
-        versionCode 2
-        versionName "1.1"
+        versionCode 3
+        versionName "1.2"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
@@ -31,6 +31,6 @@ dependencies {
     compile 'com.android.support:cardview-v7:27.1.1'
     compile 'com.jsibbold:zoomage:1.1.0'
     compile 'com.github.Binary-Finery:Bungee:master-SNAPSHOT'
-
+compile 'com.intuit.sdp:sdp-android:1.0.4'
 
 }

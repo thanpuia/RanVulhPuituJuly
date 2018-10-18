@@ -18,6 +18,17 @@
                                 <PersistentState>
                                   <option name="children">
                                     <map>
+                                      <entry key="foregroundClipartAsset">
+                                        <value>
+                                          <PersistentState>
+                                            <option name="values">
+                                              <map>
+                                                <entry key="url" value="jar:file:/home/lalthanpuia/Software/android-studio/plugins/android/lib/android.jar!/images/material_design_icons/av/ic_volume_off_black_24dp.xml" />
+                                              </map>
+                                            </option>
+                                          </PersistentState>
+                                        </value>
+                                      </entry>
                                       <entry key="foregroundImage">
                                         <value>
                                           <PersistentState>
