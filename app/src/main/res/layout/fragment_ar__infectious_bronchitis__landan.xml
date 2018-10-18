@@ -91,7 +91,7 @@
                 android:layout_height="@dimen/zoomImageView"
                 android:src="@drawable/ib1_big"/>
             <ImageView
-                android:id="@+id/ib1"
+                android:id="@+id/ib2"
                 android:onClick="ib2Click"
                 android:layout_margin="@dimen/bodyMargin"
                 android:layout_width="match_parent"
