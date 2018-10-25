@@ -34,6 +34,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/engngeATurHming"
                 android:layout_margin="@dimen/headingMargin"
+                android:textSize="@dimen/headingTextSize"
                 android:textStyle="bold" />
             <TextView
                 android:layout_width="wrap_content"

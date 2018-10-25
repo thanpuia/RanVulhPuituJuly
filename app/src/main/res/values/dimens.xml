@@ -10,5 +10,6 @@
     <dimen name="bodyMargin">12dp</dimen>
     <dimen name="zoomImageView">120dp</dimen>
 
+    <dimen name="listFontSize">21dp</dimen>
     <dimen name="spaceHelper">21dp</dimen>
 </resources>

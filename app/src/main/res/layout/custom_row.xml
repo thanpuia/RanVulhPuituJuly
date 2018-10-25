@@ -20,5 +20,7 @@
         android:id="@+id/customRow_TextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textSize="@dimen/listFontSize"
+        android:layout_gravity="center"
         android:text="something"/>
 </LinearLayout>

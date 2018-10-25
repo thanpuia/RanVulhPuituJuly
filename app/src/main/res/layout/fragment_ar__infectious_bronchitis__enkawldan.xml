@@ -26,32 +26,19 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/bodyMargin"
                 android:textSize="@dimen/textSize"
-                android:text="@string/IB_A_1"/>
+                android:text="@string/IB_C_1"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/bodyMargin"
                 android:textSize="@dimen/textSize"
-                android:text="@string/IB_A_2"/>
+                android:text="@string/IB_C_2"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/bodyMargin"
                 android:textSize="@dimen/textSize"
-                android:text="@string/IB_A_3"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="@dimen/bodyMargin"
-                android:textSize="@dimen/textSize"
-                android:text="@string/IB_A_4"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="@dimen/bodyMargin"
-                android:textSize="@dimen/textSize"
-                android:text="@string/IB_A_5"/>
-
+                android:text="@string/IB_C_3"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -66,21 +53,21 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/bodyMargin"
                 android:textSize="@dimen/textSize"
-                android:text="@string/IB_B_1"/>
+                android:text="@string/IB_D_1"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/bodyMargin"
                 android:textSize="@dimen/textSize"
-                android:text="@string/IB_B_2"/>
+                android:text="@string/IB_D_2"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/bodyMargin"
                 android:textSize="@dimen/textSize"
-                android:text="@string/IB_B_3"/>
+                android:text="@string/IB_D_3"/>
 
             <TextView
                 android:layout_width="match_parent"
